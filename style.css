@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+  body{
+   
+      
+  }
+  .photo{
+    margin-left : 50px;
+    margin-right :10px;
+    background-color :  white; 
+    width: 300px;
+    height: 260px;
+    float:left;
+  }
+  .details {
+   margin-right: 5px;
+    margin-left: 20px;
+    background-color :  white; 
+    width: 800px;
+    height: 260px;/*218px; */
+    float:left;
+  }
+  .social {
+    margin-left:50px;
+    margin-top : 20px;
+    width : 400px;
+    float:left;
+  }
+  .chart {
+      background-color: azure;
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 710px;
+      height: 237px;
+      float:left;
+  }
+
+  #personal {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #personal td, #personal th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #personal tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #personal tr:hover {background-color: #ddd;}
+  
+  #personal th:nth-child(even){background-color: #f2f2f2;}
+  
+  #personal th:hover {background-color: #ddd;}
+  #personal th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width :30%;
+    text-align: left;
+  }
+  
+  #media {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  #media td, #media th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+
+  
+  #media tr:hover {background-color: #ddd;}
+  
+
+  
+  #media th:hover {background-color: #ddd;}
+  #media th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width :50%;
+    text-align: left;
+  }

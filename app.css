@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+  body{
+     
+      
+  }
+  .login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #23463f;  
+    border-radius: 15px ;  
+      
+}  
+
+h2{  
+text-align: center;  
+color: #277582;  
+  
+}  
+#signup{
+    color: greenyellow;   
+}
+label{  
+color: #08ffd1;  
+font-size: 17px;  
+cursor:pointer;
+}  
+#Uname{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#Pass{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+  
+}  
+#email{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;     
+}
+    
+span{  
+color: white;  
+font-size: 17px;  
+}  
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-left: 300px;
+    cursor: pointer;
+} 
+
+#distance    {
+    width: 50%;
+    padding: 12px 20px;
+    margin-left: 200px ;
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #f2f2f2;
+  }
+
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.photo{
+  margin-left : 50px;
+  margin-right :10px; 
+  background-color :  white; 
+  width: 300px;
+  height: 260px;
+  float:left;
+}
+.details {
+ margin-right: 5px;
+  margin-left: 20px;
+  background-color :  white; 
+  width: 800px;
+  height: 260px;
+  float:left;
+}
+.social {
+  margin-left:50px;
+  margin-top : 8px;
+  width : 400px;
+  float:left;
+}
+.chart {
+    background-color: azure;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 710px;
+    height: 237px;
+    float:left;
+}
+
+#personal {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#personal td, #personal th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#personal tr:nth-child(even){background-color: #f2f2f2;}
+
+#personal tr:hover {background-color: #ddd;}
+
+#personal th:nth-child(even){background-color: #f2f2f2;}
+
+#personal th:hover {background-color: #ddd;}
+#personal th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width :30%;
+  text-align: left;
+}
+
+#media {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+#media td, #media th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+#media tr:hover {background-color: #ddd;}
+
+
+
+#media th:hover {background-color: #ddd;}
+#media th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width :50%;
+  text-align: left;
+}
+
+.table {
+  float:left;
+  width : 80%;
+  margin-left: 25px;
+
+}
