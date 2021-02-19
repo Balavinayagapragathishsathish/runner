@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="topnav" id="myTopnav">
+      {{#link-to "home" class="menu"}}
+        Home
+      {{/link-to}}
+      {{#link-to "profile" class="menu"}}
+        Profile
+      {{/link-to}}
+      {{#link-to "distance" class="menu"}}
+        Distance covered
+      {{/link-to}}
+      {{#link-to "logout" id="logout" class="menu"}}
+        Logout
+      {{/link-to}}      
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

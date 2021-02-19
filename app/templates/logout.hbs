@@ -1,0 +1,12 @@
+{{page-title "Logout"}}
+{{outlet}}
+<body onload="logout()"></body>
+<script>
+    /** 
+    *Removing the username from localstorage
+    *Transfering control to login page
+    **/
+    function logout() {
+        location.replace("http://localhost:4200/login");         
+        }
+</script>

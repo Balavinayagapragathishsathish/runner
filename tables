@@ -1,0 +1,14 @@
+CREATE TABLE Person (
+    role varchar(15),
+    uname varchar(255),
+    lastname varchar(255),
+    email varchar(255),
+    phone varchar(15),
+    Address varchar(255),
+    password varchar(30),
+    facebook varchar(100),
+    linkedin varchar(100),
+    github varchar(100),
+    instagram varchar(100),
+    primary key(uname)
+);

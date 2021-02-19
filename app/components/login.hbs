@@ -1,0 +1,22 @@
+ <div class="login">    
+
+   <!-- Getting username and password , transferring control for  validation -->
+    <form id="login">   
+ 
+        <label for="Uname"> <b>User Name     </b>    </label>    
+        <br/>
+        {{input value=this.uname name="Uname" id="uname"}} 
+        <br><br>    
+        <label for="Pass"><b>Password    </b>    </label>    
+        <br/>   
+        {{input value=this.password type="password" name="pass" id="pass"}}   
+        <br><br>    
+        <button type="submit" {{action 'checkuser' this.uname this.password}}>Login</button>
+        <br><br>     
+    </form> 
+    <!-- For new user, transfer control to register page -->
+    <label> Not an existing user</label>
+    {{#link-to "register" class="button"}}
+        <span id="signup">Sign up!!!</span>  
+    {{/link-to}}
+</div>

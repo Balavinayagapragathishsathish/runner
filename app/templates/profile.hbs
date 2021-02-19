@@ -1,0 +1,39 @@
+{{application}}
+   <br/>
+
+  {{#each this.model as |person|}}
+  <div class="photo">
+    <center> <br>
+      <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" width="150">
+      <h2> {{person.title}}</h2>
+      <p style ="color: grey font-size:100px ;" ><h5>{{person.role}}</h5> </p>
+    </center>
+  </div>
+  <div class="displaycard">
+      <table id="personal"> 
+        <tr>  <th> First Name</th>
+              <td>{{person.firstname}}</td>
+        </tr>
+        <tr>
+          <th> Last Name</th>
+          <td> {{person.lastname}}</td>
+        </tr>          
+        <tr>
+          <th> Email</th>
+          <td> {{person.email}}</td>            
+        </tr>
+        <tr>
+          <th> Mobile</th>
+          <td>  {{person.mobile}}</td>            
+        </tr>
+        <tr>
+          <th> Password </th>
+          <td> {{person.password}}  </td>            
+        </tr>           
+        <tr>
+          <th> City</th>
+          <td>{{person.city}}</td>            
+        </tr> 
+      </table>
+  </div>  
+{{/each}}

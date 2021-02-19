@@ -1,0 +1,22 @@
+{{page-title "Home"}}
+{{application}}
+Welcome!!
+
+{{#each this.model as |user|}}
+  <article class="listing">
+    <div class="details">
+     
+      <h3 class="details">{{user.title}}</h3>
+     
+      <div class="detail owner">
+        <span class="distance">Distance:</span> {{user.distance}}
+      </div>   
+
+            <div class="detail owner">
+        <span class="distance">City:</span> {{user.city}}
+      </div>  
+       
+    </div>
+  </article>
+{{/each}}
+{{outlet}}

@@ -1,0 +1,77 @@
+{{page-title "Register"}}
+<h2>Register</h2><br>    
+<div class="login">    
+    <!-- Form for collecting user details and storing in DataBase -->
+    <form id="login" method="post" action="http://localhost/runner/profileregister.php">    
+        <!--- First name -->
+        <label for="uname"><b>First Name</b>    </label>    <br/>
+            {{input value=Uname name="uname" id="uname" required=true}} 
+        <br><br>    
+        <!--- Last name -->
+        <label for="lastname"><b>Last Name</b>   </label>    <br/>
+            {{input value=Lname name="lastname" id="register" required=true}} 
+        <br><br> 
+        <!-- Password -->
+        <label for="Pass"><b>Password     </b>    </label>    <br/>   
+            {{input value=password type="password" name="pass" id="pass" required=true 
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+            placeholder="Must contain number,uppercase and lowercase letters"}}   
+        <br><br>    
+        <!-- E-MAIL -->
+        <label for="email"><b>Email ID</b>   <br> </label>                
+            {{input value=email type="email" id="register" name="email" required=true}}  
+        <br><br>
+        <!-- Phone number -->
+        <label for="number"><b>Phone number</b>   <br> </label>                
+            {{input value=number type="text" id="register" name="number"}}  
+        <br><br>  
+        <!-- City Name -->
+        <label for="address"><b>City</b>   <br> </label>                
+            {{input value=address type="text" id="register" name="address"}}  
+        <br><br>  
+        <!-- Role -->
+        <br>
+        <label for="role"> <b>Role  </b>
+            <select name="role" id="role">
+            <option value="Developer">Developer</option>
+            <option value="BA">BA Member</option>
+            <option value="community">Community Member</option>
+            <option value="manager">Manager</option>
+            </select>
+        </label>
+        <br> <br>    
+        <h3 style="font-color:yellow"> ___ SOCIAL ___</h3>
+        <!-- Facebook -->
+        <label for="facebook"><b>Facebook Profile </b>   <br> </label>                
+            {{input value=facebook type="text" id="register" name="facebook"}}  
+            <br><br>   
+        <!-- linkedin -->
+        <label for="linkedin"><b>Linkedin Profile</b>   <br> </label>                
+            {{input value=linkedin type="text" id="register" name="linkedin"}}  
+        <br><br>    
+        <!-- GIThub -->
+        <label for="github"><b>Github Profile</b>   <br> </label>                
+            {{input value=github type="text" id="register" name="github"}}  
+        <br><br>     
+        <!-- Instagram -->
+        <label for="insta"><b>Instagram Profile</b>   <br> </label>                
+            {{input value=insta type="text" id="register" name="insta"}}  
+        <br><br>                                                                   
+        <button type="submit" onclick="localStoargeuser()">Register</button>
+        <br><br>     
+            
+
+    </form> 
+</div>
+<script>
+/**
+* Storing username in localstorage.
+* @variable uname- username in inputbox
+**/ 
+function localStoargeuser() {
+var uname= document.getElementById("uname").value;
+localStorage.setItem("uname",uname);
+var us=localStorage.getItem("uname");
+}
+</script>
+    
